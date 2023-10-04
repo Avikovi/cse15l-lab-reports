@@ -70,7 +70,16 @@
 
 -The command was run in the lecture1 directory.
 
--The command did work as ls works for all directories and files that have contents.
+-The command did work as ls works for all directories and files that have contents. A content of a file is itself, therefore the command was correct in returning the file that was used ls on.
 
--The output was a successful result of 
+-The output was a successful with the result of listing the file that was run ls on.
+
+# File Argument (cat)
+![Image](lab1-3.3.png)
+
+-The command was run in the lecture1 directory.
+
+-The command was ran on the "Hello.java" file and the the result of the cat function was the contents of the Hello.java file.
+
+-The result was not an error as when the cat funciton is ran on a file, it returns the contents of the file that the function was ran on.
 
