@@ -41,9 +41,9 @@
 
 -The command was run in the lecture1 directory.
 
--The output resulted the contents of the lecture1 directory. This included the Hello.java file, README file, Hello.class script, and the messages directory.
+-The output resulted the contents of the messages directory. These displayed contents consisted of the files of different languages.
 
--The output was not an error as we ran ls in lecture1, which correctly outputted the contents of the lecture1 directory.
+-The output was not an error as we ran ls in lecture1 with the argument "messages/". Since the messages/ directory is located in the lecture1 directory, the program correctly outputted the contents of the messages directory as per ls's command definition.
 
 # Directory Argument (cat)
 ![Image](lab1-2.3.png)
