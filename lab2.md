@@ -27,8 +27,17 @@ The following code is the contents of StringServer.java
 - If the first value of the query or `parameters[0]` is equal to the string value `"s"`, then the text present in `parameters[1]` is added to the the arraylist `text`, then the value of `len` is incremented by 1. After this, the value of `response` is updated with the values of `text` and their respective index.
 
 # Part 2
+### Path to private key in local computer
+![Image](lab2-images/lab2-2.1.jpg)
 
+### Path to public key in ieng6 account
+![Image](lab2-images/lab2-2.2.jpg)
 
+### Logging into ssh with no password
+![Image](lab2-images/lab2-2.3.jpg)
+
+# Part 3
+One thing that I learned in week 2 and 3 was hwo ot build and start a server as well as how to edit it to return things that I wanted it to return. For example, I previously did not know how localhost worked, but now I have a better understanding of creating local servers. Along with this, I have gained a much better understanding of hwo a url functions and how part of it are filtered, such as the path, query, etc.
 
 
 
