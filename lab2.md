@@ -3,12 +3,12 @@
 
 The following code is the contents of StringServer.java
 
-![Image](lab2-images/lab2-1.1.jpg)
+![Image](lab2-images/lab2-1.1.JPG)
 
 ## /add-message usage
 ### Screenshot 1
 
-![Image](lab2-images/lab2-1.2.jpg)
+![Image](lab2-images/lab2-1.2.JPG)
 
 - The method that is called in this code would be the `handleRequest` method.
 
@@ -18,7 +18,7 @@ The following code is the contents of StringServer.java
 
 ### Screenshot 2
 
-![Image](lab2-images/lab2-1.3.jpg)
+![Image](lab2-images/lab2-1.3.JPG)
 
 - The method that is called in this code would be the `handleRequest` method.
 
@@ -34,7 +34,7 @@ The following code is the contents of StringServer.java
 ![Image](lab2-images/lab2-2.2.jpg)
 
 ### Logging into ssh with no password
-![Image](lab2-images/lab2-2.3.jpg)
+![Image](lab2-images/lab2-2.3.JPG)
 
 # Part 3
 One thing that I learned in week 2 and 3 was hwo ot build and start a server as well as how to edit it to return things that I wanted it to return. For example, I previously did not know how localhost worked, but now I have a better understanding of creating local servers. Along with this, I have gained a much better understanding of hwo a url functions and how part of it are filtered, such as the path, query, etc.
