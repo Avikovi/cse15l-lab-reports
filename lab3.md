@@ -57,6 +57,7 @@ static void reverseInPlace(int[] arr) {
 # Part 2 (all ran in `./technical/`)
 ## Search for a file with a specific name in a specific folder
 ### Example 1
+This example is finding all of the `.txt` files in the `911report/` file.
 ```
 #Command ran
 find ./911report/ -name *.txt
@@ -81,6 +82,7 @@ find ./911report/ -name *.txt
 ./911report/preface.txt
 ```
 ### Example 2
+This example is finding all of the `.txt` files in the `government/About_LSC` file.
 ```
 #Command ran
 find ./government/About_LSC -name *.txt
@@ -104,6 +106,7 @@ find ./government/About_LSC -name *.txt
 ./government/About_LSC/State_Planning_Special_Report.txt
 ./government/About_LSC/Strategic_report.txt
 ```
+
 ## Search for empty files and directories
 ### Example 1 (I added an empty file called empty.txt in `911report/` and `government/About_LSC/`)
 ```
@@ -113,7 +116,6 @@ find ./government/About_LSC/ -empty
 #Result
 ./government/About_LSC/empty.txt
 ```
-
 ### Example 2 (I added an empty file called empty.txt in `911report/` and `government/About_LSC/`)
 ```
 #Command ran
@@ -142,7 +144,6 @@ find . -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
-
 ### Example 2
 ```
 #Command ran
@@ -158,6 +159,35 @@ find ./government/ -type d
 ./government/Post_Rate_Comm
 ```
 
+## Search text within multiple files
+### Example 1
+```
+#Command ran
+find ./ -type f -name "*.txt" -exec grep 'Hello'  {} \;
+
+#Result
+At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President: There's been at least three instances here where we've had reports of aircraft approaching Washington-a couple were confirmed hijack. And, pursuant to the President's instructions I gave authorization for them to be taken out. Hello?
+```
+
+### Example 2
+```
+#Command ran
+find ./ -type f -name "*.txt" -exec grep 'wording'  {} \;
+
+#Result
+        ] wording, [ 5 ] and framing [ 6 7 ] affect physicians'
+            It was altered slightly by rewording items to determine
+easily misread the wording of this recommendation. To avoid that,
+wording of this recommendation. However, he raised a larger
+with its success in other settings. He suggested that the wording
+suggested wording for the supporting text for this recommendation.
+direct testing. Many tests would be improved by wording questions
+revisionstothewordinginsomeinstancesforclarityandcontextual
+traced back to wording in England's Magna Carta, but the first
+        in the current version of the Declaration of Helsinki, with wording such as, “Extreme care
+```
+
+All of the above examples were found and based off the contents in the follwoing link: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
 
 
 
