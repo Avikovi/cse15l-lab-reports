@@ -27,9 +27,11 @@ public class ArrayTests {
 
 ## Symptoms of running the above tests
 These were the tests ran:
+
 ![Image](lab3-images/lab3-1.1.JPG)
 
-The follwoing was the result of running the above tests
+The follwoing was the result of running the above tests:
+
 ![Image](lab3-images/lab3-1.2.JPG)
 
 ## Code changes to fix the bug in the method.
