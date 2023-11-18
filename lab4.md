@@ -2,7 +2,7 @@
 ## Starting from Step 4 - Log into ieng6
 In the terminal type the command `ssh cs15lfa23nm@ieng6.ucsd.edu` and press "enter". This will allow you to log in to the ieng6 server.
 
-![Image](lab4-images/lab4-1.JPG)
+![Image](https://github.com/Avikovi/cse15l-lab-reports/blob/main/lab4-images/lab4.1.JPG)
 
 ## Step 5 - Clone your fork of the repository using the ssh url
 Go to your forked reposity, click the green button that says "Code", make sure you are in the "ssh" tab and copy the link by clicking the button to the right of the link.
