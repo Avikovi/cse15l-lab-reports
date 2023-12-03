@@ -16,6 +16,7 @@ You are correct in identifying where the error in te code is. In grade.sh, it mi
 
 ### Reply from Student
 I ran through the `grade.sh` file keeping in mind the working directory and I found the error, it turns out that I just did not change my directory to the `grading-area` folder. This is making sense now as those commands are defined in that folder, so wihtout changing my directory, those files do not exist within the scope. Once I added that line, my code passed the test cases and is working correctly! Thank you!
+
 Terminal result:
 
 ![Image](lab5-images/lab5-1.3.JPG)
